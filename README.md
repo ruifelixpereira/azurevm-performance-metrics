@@ -24,7 +24,7 @@ Connect-AzAccount -UseDeviceAuthentication
 
 ## Step 4. Apply the diagnostic settings to your VMs
 
-### Customize to you environment
+Customize to you environment:
 
 ```
 $vm_resourcegroup = "your resource group where VMs are"
