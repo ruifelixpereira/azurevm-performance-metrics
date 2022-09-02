@@ -47,3 +47,5 @@ $publicsettings = (Get-AzVMDiagnosticsExtension -ResourceGroupName $vm_resourceg
 
 $publicsettings | out-file -filepath collected-pub-settings.json
 ```
+
+You can review the collected configuration in the generated file `collected-pub-settings.json`.
